@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Olympia Deco';
+	src: url('./fonts/olympia_deco.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/olympia_deco.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/olympia_deco.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/olympia_deco.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/olympia_deco.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/olympia_deco.svg#olympia_deco') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'WiGuru';
+	src: url('./fonts/wiguru.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/wiguru.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/wiguru.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/wiguru.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/wiguru.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/wiguru.svg#wiguru') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 215px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+
+.logo-pacement {
+    border: solid 3px rgb(255, 155, 0);
+    border-radius: 80px;
+    padding: 20px 180px 20px 180px;
+    background-color: rgb(221, 144, 0);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Olympia Deco';
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+}
+
+.underlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'WiGuru';
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.git-logo {
+    border: 3px solid rgb(255, 155, 0);
+    border-radius: 80px;
+    background-color: rgb(221, 144, 0);
+    margin: 20px;
+}
+
+.qst-logo {
+    border: 3px solid rgb(255, 155, 0);
+    border-radius: 80px;
+    background-color: rgb(221, 144, 0);
+    margin: 20px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    height: 215px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date {
+    font-family: 'Olympia Deco';
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
